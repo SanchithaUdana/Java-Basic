@@ -152,6 +152,17 @@ public class Main {
         }
 
 
+        // --> jump statement
+            // break
+            // used to jump out the loop
+            // we can use break in if , while loop , for loop
+
+        bb bre = new bb();
+        bre.breakTest();
+        bre.continueTest();
+
+
+
 
 
 
