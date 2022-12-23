@@ -195,21 +195,29 @@ public class Main {
         System.out.println(" ");
 
         // --> Exception Handling
+
             // we used exception handling to prevent logical errors
             // we can use to handle errors using try catch method
 
         try {
-            System.out.println(name[5]);
+            System.out.println(name[5]); // name is an array in above code lines
         }catch (Exception e){
             System.out.println("Error "+ e);
-        }finally {
+            // and we can use System.err.println(); to specify the error message
+            System.err.println("using sout err command");
+            // we can use trow command to express specific error message
+            throw new ArithmeticException("Error has been generated");  // throw command
+         }finally {
             System.out.println("this is final block");
         }
+
+
 
         // in finally block, it's already print after try or catch block executing
 
 
         // --> outer class and inner class
+
             // in the calling inner class, first we create an object using outer class
             // then we can create an object to inner class through outer class
             // outerClass.innerClass innerObName = outerObject.new innerClass();
@@ -223,7 +231,9 @@ public class Main {
         System.out.println(outer.a);
         System.out.println(inner.b);
 
+
         // -- > static keyword in inner class
+
             // we can use static keyword to inner class
             // we can create an object to inner class without creating object for outer class
 
@@ -239,15 +249,15 @@ public class Main {
             public void call() {
                 System.out.println("using anonymous class in interface");
             }
-        };
+        };  // we must put the semi colan in end of the anonymous class method
 
         p1.call();
 
         // we can use this method to access interface without creating a java class
         // we can create an object through interface
         // phone p1 = new phone() {};
+        // we must use @Override annotation to override the interface abstract methods
         // we can use this in have 2 or 3 interface abstract methods
-
 
 
 
