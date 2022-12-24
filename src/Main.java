@@ -232,7 +232,7 @@ public class Main {
         System.out.println(inner.b);
 
 
-        // -- > static keyword in inner class
+            // -- > static keyword in inner class
 
             // we can use static keyword to inner class
             // we can create an object to inner class without creating object for outer class
@@ -258,6 +258,7 @@ public class Main {
         // phone p1 = new phone() {};
         // we must use @Override annotation to override the interface abstract methods
         // we can use this in have 2 or 3 interface abstract methods
+
 
 
 
