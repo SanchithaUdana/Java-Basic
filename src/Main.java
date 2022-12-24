@@ -247,9 +247,10 @@ public class Main {
         phone p1 = new phone() {
             @Override
             public void call() {
-                System.out.println("using anonymous class in interface");
+                System.out.println("Anonymous Class using in Interface");
             }
-        };  // we must put the semi colan in end of the anonymous class method
+        };
+        // we must put the semi colan in end of the anonymous class method
 
         p1.call();
 
@@ -259,6 +260,13 @@ public class Main {
         // we must use @Override annotation to override the interface abstract methods
         // we can use this in have 2 or 3 interface abstract methods
 
+
+        sanchitha sant = new sanchitha(){
+            @Override
+            public void name(){
+                System.out.println("Sanchitha hello");
+            }
+        };
 
 
 
