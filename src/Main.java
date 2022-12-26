@@ -20,13 +20,13 @@ public class Main {
 
         // --> type casting
 
-        // widening casting - automatic casting
-        // small data type to small data type
+        // widening casting - automatic casting or we can called UpCasting
+        // small data type to large data type
         int n1 = 10;
         long b1 = n1;
         System.out.println(b1);
 
-        // narrowing casting - manual casting
+        // narrowing casting - manual casting or we can called DownCasting
         // large data type to small data type
         long num1 = 10000;
         int number = (int) num1;
