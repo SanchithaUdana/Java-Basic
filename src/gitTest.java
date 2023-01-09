@@ -1,3 +1,9 @@
 public class gitTest {
-    int qwer = 12;
+
+    public void gitTest(){
+        System.out.println("This is gitTest branch edition code");
+    }
+
+
+
 }
